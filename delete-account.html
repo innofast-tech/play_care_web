@@ -37,7 +37,7 @@ a{color:#1F5FD1}a:hover{color:#1546A6}
       <span style="font-size: 14px; font-weight: 800; color: #D42A7B; letter-spacing: 0.6px">PLAY CARE GATE · STAFF APP</span>
       <h1 style="margin: 0; font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 46px; line-height: 1.1">Delete your data</h1>
       <p style="margin: 0; max-width: 680px; font-size: 18px; line-height: 1.55; font-weight: 500; color: #4A5165">Ask us to delete your Play Care Gate account and the personal data linked to it. You do not need to be signed in to the app.</p>
-      <div style="font-size: 14px; font-weight: 700; color: #5B6478">App: Play Care Gate · Developer: [COMPANY LEGAL NAME]</div>
+      <div style="font-size: 14px; font-weight: 700; color: #5B6478">App: Play Care Gate · Developer: <a href="https://innofast.tech" style="color:inherit">Innofast Technologies Limited</a></div>
     </div>
 
     <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
@@ -49,17 +49,17 @@ a{color:#1F5FD1}a:hover{color:#1546A6}
             <div style="flex: 1 1 200px; box-sizing: border-box; background: #FFFFFF; border: 1px solid #ECE7F3; border-radius: 20px; padding: 16px 18px">
               <div style="width: 36px; height: 36px; border-radius: 18px; background: #FDE8F2; color: #8F1A52; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px; margin-bottom: 10px">1</div>
               <div style="font-size: 16px; font-weight: 800; margin-bottom: 4px">Send the request</div>
-              <p class="pc-p" style="margin: 0; font-size: 15px">Fill in the form on this page, or email us.</p>
+              <p class="pc-p" style="margin: 0; font-size: 15px">Email us your name and the phone number you use to sign in.</p>
             </div>
             <div style="flex: 1 1 200px; box-sizing: border-box; background: #FFFFFF; border: 1px solid #ECE7F3; border-radius: 20px; padding: 16px 18px">
               <div style="width: 36px; height: 36px; border-radius: 18px; background: #FDE8F2; color: #8F1A52; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px; margin-bottom: 10px">2</div>
               <div style="font-size: 16px; font-weight: 800; margin-bottom: 4px">We check it is you</div>
-              <p class="pc-p" style="margin: 0; font-size: 15px">We contact the phone number on the account before anything is deleted. <span class="pc-c">CONFIRM</span></p>
+              <p class="pc-p" style="margin: 0; font-size: 15px">We contact the phone number on the account before anything is deleted. </p>
             </div>
             <div style="flex: 1 1 200px; box-sizing: border-box; background: #FFFFFF; border: 1px solid #ECE7F3; border-radius: 20px; padding: 16px 18px">
               <div style="width: 36px; height: 36px; border-radius: 18px; background: #FDE8F2; color: #8F1A52; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 16px; margin-bottom: 10px">3</div>
               <div style="font-size: 16px; font-weight: 800; margin-bottom: 4px">We delete and confirm</div>
-              <p class="pc-p" style="margin: 0; font-size: 15px">Within <span class="pc-c">[NUMBER] days</span> we delete your data and tell you when it is done.</p>
+              <p class="pc-p" style="margin: 0; font-size: 15px">Within 10 working days we delete your data and tell you when it is done.</p>
             </div>
           </div>
         </section>
@@ -78,54 +78,30 @@ a{color:#1F5FD1}a:hover{color:#1546A6}
             <div style="flex: 1 1 280px; box-sizing: border-box; background: #FEF0DC; border: 1.5px solid #9A4A06; border-radius: 20px; padding: 16px 18px">
               <div style="font-size: 16px; font-weight: 800; color: #9A4A06; margin-bottom: 8px">We may keep</div>
               <ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.5; font-weight: 600; color: #17203A">
-                <li>Check-in and check-out records, for <span class="pc-c">[PERIOD]</span>, needed for accounting and safety. <span class="pc-c">CONFIRM</span> They will no longer show your name.</li>
+                <li>Check-in and check-out records, for as long as you work with Play Care, needed for accounting and safety. They will no longer show your name.</li>
               </ul>
             </div>
           </div>
-          <p class="pc-p" style="margin-top: 14px">Looking for member or child information, such as a guardian or baby profile? That is handled by the Play Care counter, not this app. Email <span class="pc-c">[CONTACT EMAIL]</span> or visit the counter.</p>
+          <p class="pc-p" style="margin-top: 14px">Looking for member or child information, such as a guardian or baby profile? That is handled by the Play Care counter, not this app. Email <a href="mailto:playcare14@gmail.com" style="font-weight: 800">playcare14@gmail.com</a> or visit the counter.</p>
         </section>
 
         <section id="request">
           <h2 class="pc-h2">Request deletion</h2>
-
-          <form id="delform" action="#" method="post" style="box-sizing: border-box; background: #FFFFFF; border: 1px solid #ECE7F3; border-radius: 24px; padding: 22px; display: flex; flex-direction: column; gap: 18px; margin-top: 4px">
-              <div style="display: flex; flex-direction: column; gap: 8px">
-                <label class="pc-lb" for="dn">Full name</label>
-                <input id="dn" name="name" class="pc-in" type="text" required autocomplete="name" placeholder="Your name">
-              </div>
-              <div style="display: flex; flex-direction: column; gap: 8px">
-                <label class="pc-lb" for="dp">Phone number used to sign in</label>
-                <input id="dp" name="phone" class="pc-in" type="tel" required autocomplete="tel" placeholder="01XXXXXXXXX">
-              </div>
-              <div style="display: flex; flex-direction: column; gap: 8px">
-                <label class="pc-lb" for="de">Email (optional)</label>
-                <input id="de" name="email" class="pc-in" type="email" autocomplete="email" placeholder="So we can confirm by email">
-              </div>
-              <div style="display: flex; flex-direction: column; gap: 4px">
-                <span class="pc-lb">What should we delete?</span>
-                <label class="pc-opt"><input type="radio" name="what" value="all" checked> My account and all personal data linked to it</label>
-                <label class="pc-opt"><input type="radio" name="what" value="some"> Only some of my data (tell us which below)</label>
-              </div>
-              <div style="display: flex; flex-direction: column; gap: 8px">
-                <label class="pc-lb" for="dm">Anything else we should know (optional)</label>
-                <textarea id="dm" name="message" class="pc-in" style="height: 100px; padding: 12px 16px; resize: vertical" placeholder="For example, which data to delete"></textarea>
-              </div>
-              <label class="pc-opt"><input type="checkbox" name="confirm" required> I understand this cannot be undone, and I will not be able to sign in again.</label>
-              <button type="submit" style="height: 54px; border: 0; border-radius: 16px; background: #D42A7B; color: #FFFFFF; font-family: inherit; font-size: 16px; font-weight: 800">Send deletion request</button>
-            </form>
-
-          <div id="deldone" hidden style="box-sizing: border-box; background: #E1F4EF; border: 1.5px solid #0B6157; border-radius: 24px; padding: 28px 22px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center; margin-top: 4px" role="status">
-              <div style="width: 72px; height: 72px; border-radius: 36px; background: #0B6157; display: flex; align-items: center; justify-content: center"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg></div>
-              <span style="font-family: 'Fredoka', sans-serif; font-weight: 600; font-size: 28px; color: #0B6157; line-height: 1.15">Request received</span>
-              <span style="font-size: 16px; font-weight: 600; color: #17203A; line-height: 1.5; max-width: 460px">We will contact you on the phone number you gave to confirm it is you. Your data will be deleted within <span class="pc-c">[NUMBER] days</span> of that.</span>
-              <span style="font-size: 14px; font-weight: 700; color: #4A5165">Reference: [REQUEST ID]</span>
-              <button type="button" id="delagain" style="margin-top: 6px; min-height: 44px; border: 0; background: transparent; color: #1F5FD1; font-family: inherit; font-size: 15px; font-weight: 800">Send another request</button>
-            </div>
+          <div style="box-sizing: border-box; background: #FFFFFF; border: 1px solid #ECE7F3; border-radius: 24px; padding: 22px; display: flex; flex-direction: column; gap: 14px; margin-top: 4px">
+            <p class="pc-p" style="margin: 0">Send an email to <a href="mailto:playcare14@gmail.com" style="font-weight: 800">playcare14@gmail.com</a> from any address. Please include:</p>
+            <ul style="margin: 0; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.6; font-weight: 500; color: #2B3350">
+              <li>Your full name</li>
+              <li>The phone number you use to sign in to Play Care Gate</li>
+              <li>Whether you want all your data deleted, or only some of it (say which)</li>
+            </ul>
+            <p class="pc-p" style="margin: 0">Deletion cannot be undone, and you will not be able to sign in again.</p>
+            <a href="mailto:playcare14@gmail.com?subject=Delete%20my%20Play%20Care%20Gate%20data&body=Full%20name%3A%0APhone%20number%20used%20to%20sign%20in%3A%0AWhat%20to%20delete%20(all%20my%20data%20%2F%20only%20some)%3A%0A%0AI%20understand%20this%20cannot%20be%20undone%20and%20I%20will%20not%20be%20able%20to%20sign%20in%20again." style="min-height: 54px; box-sizing: border-box; padding: 0 24px; border-radius: 16px; background: #D42A7B; color: #FFFFFF; font-size: 16px; font-weight: 800; display: flex; align-items: center; justify-content: center; text-decoration: none">Email your deletion request</a>
+          </div>
         </section>
 
         <section>
-          <h2 class="pc-h2">Prefer email?</h2>
-          <p class="pc-p">Write to <span class="pc-c">[CONTACT EMAIL]</span> from any address, with your name and the phone number you use to sign in. We treat it the same as the form.</p>
+          <h2 class="pc-h2">Questions?</h2>
+          <p class="pc-p">Write to <a href="mailto:playcare14@gmail.com" style="font-weight: 800">playcare14@gmail.com</a> with your name and the phone number you use to sign in. You can also call us on 01340449922.</p>
           <p class="pc-p">Read how we handle your information in the <a href="privacy-policy.html" style="font-weight: 800">Privacy Policy</a>.</p>
         </section>
       </div>
@@ -134,23 +110,11 @@ a{color:#1F5FD1}a:hover{color:#1546A6}
 
   <footer style="background: #FFFFFF; border-top: 1px solid #ECE7F3">
     <div style="max-width: 1040px; margin: 0 auto; box-sizing: border-box; padding: 20px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; font-size: 14px; font-weight: 600; color: #5B6478">
-      <span>© [YEAR] [COMPANY LEGAL NAME]</span>
+      <span>© 2026 Play Care</span>
       <span style="display: flex; flex-wrap: wrap; gap: 16px"><a href="privacy-policy.html" style="font-weight: 700">Privacy Policy</a><a href="delete-account.html" style="font-weight: 700">Delete your data</a></span>
     </div>
   </footer>
 </div>
-<script>
-(function(){
-  var f=document.getElementById('delform'),d=document.getElementById('deldone');
-  f.addEventListener('submit',function(e){
-    e.preventDefault();
-    // TODO: send the form data to your backend or email service here
-    f.hidden=true;d.hidden=false;d.scrollIntoView({behavior:'smooth',block:'center'});
-  });
-  document.getElementById('delagain').addEventListener('click',function(){
-    f.reset();d.hidden=true;f.hidden=false;
-  });
-})();
-</script>
+
 </body>
 </html>
